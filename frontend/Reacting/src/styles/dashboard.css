@@ -1,0 +1,9 @@
+.dashboard {
+  padding: 20px;
+}
+
+.card-row {
+  display: flex;
+  gap: 20px;
+  margin-top: 20px;
+}
