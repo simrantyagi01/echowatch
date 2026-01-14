@@ -1,0 +1,26 @@
+.sidebar {
+  width: 220px;
+  background: #1e3c72;
+  color: white;
+  padding: 20px;
+  min-height: 100vh;
+}
+
+.sidebar h2 {
+  margin-bottom: 30px;
+}
+
+.sidebar ul {
+  list-style: none;
+  padding: 0;
+}
+
+.sidebar li {
+  padding: 12px 0;
+  cursor: pointer;
+  opacity: 0.9;
+}
+
+.sidebar li:hover {
+  opacity: 1;
+}

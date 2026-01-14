@@ -1,0 +1,105 @@
+.dashboard {
+  min-height: 100vh;
+  width: 100%;
+  background: radial-gradient(circle at top, #0c1a33, #020818);
+  padding: 30px;
+}
+
+
+.dashboard-container {
+  min-height: 100vh;
+  background-color: #020617;
+  color: white;
+}
+
+.dashboard-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 18px 30px;
+  border-bottom: 1px solid #1e293b;
+}
+
+.dashboard-header h2 {
+  font-size: 22px;
+  font-weight: bold;
+}
+
+.city-badge {
+  background: #0f172a;
+  padding: 8px 16px;
+  border-radius: 20px;
+  font-size: 14px;
+}
+
+.dashboard-content {
+  padding: 30px;
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  gap: 24px;
+}
+
+/* Card */
+.dashboard-card {
+  background: #020617;
+  border: 1px solid #1e293b;
+  border-radius: 16px;
+  padding: 22px;
+}
+
+.card-title {
+  font-size: 14px;
+  color: #94a3b8;
+  margin-bottom: 12px;
+}
+
+/* AQI */
+.aqi-number {
+  font-size: 52px;
+  font-weight: bold;
+  color: #22c55e;
+}
+
+.aqi-status {
+  margin-top: 6px;
+  font-size: 14px;
+}
+
+/* Metric */
+.metric-number {
+  font-size: 32px;
+  font-weight: bold;
+}
+
+.metric-unit {
+  font-size: 14px;
+  color: #94a3b8;
+}
+
+/* Alerts */
+.alert-item {
+  background: #0f172a;
+  padding: 12px;
+  border-radius: 10px;
+  border-left: 4px solid #ef4444;
+  font-size: 13px;
+  margin-bottom: 10px;
+}
+
+/* Noise */
+.noise-heat {
+  height: 150px;
+  border-radius: 12px;
+  background: linear-gradient(90deg, #22c55e, #eab308, #ef4444);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: bold;
+}
+
+.stats-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  gap: 20px;
+  width: 100%;             /* ✅ IMPORTANT */
+}
